@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #2f363e;
+  color: white;
+}
+
+.nome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  gap: 2rem;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.relogio {
+  display: flex;
+  gap: 3rem;
+}
+
+.criador {
+  margin-top: 5rem;
+  font-size: 1rem;
+}
+
+.criador a {
+  color: aqua;
+}
+
+@media (max-width: 500px) {
+  .nome {
+    font-size: 16px;
+  }
+  .relogio {
+    gap: 1rem;
+  }
+}
